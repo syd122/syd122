@@ -16,12 +16,6 @@ article {
 	font-size: 15px;
 	letter-spacing: 2px;
 }				
-article img {
-	padding: 2%;
-	float: left;
-	width: 10%;
-	height: 10%;
-}
 article p {
 	padding: 15px;
 	display: block;

@@ -1,0 +1,180 @@
+/* mystyle.css */
+/* mystyle.css */
+
+body {
+	background-color: #7D80DA;
+	margin-top: 8%;
+}
+
+/* article style */	
+article {
+	background-color: #F3F9D2;				
+	text-align: center;
+	margin-left: 7%;
+	margin-right: 7%;
+	font-family: Georgia, serif;
+	font-size: 15px;
+	letter-spacing: 2px;
+}				
+article img {
+	padding: 2%;
+	float: left;
+	width: 10%;
+	height: 10%;
+}
+article p {
+	padding: 15px;
+	background-color: #7D80DA;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	overflow: auto;	
+}	
+article p:hover {
+	background: #ddd;
+	color: black;
+}	
+article p:active {
+	background-color: #04AA6D;
+	color: white;
+}
+
+/* header style */
+header {
+	overflow: hidden;
+	background-color: #333;
+	position: fixed; 
+	top: 0; 
+	height: 50px;
+	width: 100%; 
+}
+header a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+header a:hover {
+	background: #ddd;
+	color: black;
+}			
+header a:active {
+	background-color: #04AA6D;
+	color: white;
+}
+header img {
+	float: left;
+}
+	
+
+
+/* title style */			
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+.container{
+	text-align: center;
+	float: right;
+	width: 100%;
+	background-color: #7D80DA;				
+}
+.container span{
+	display: block;
+}
+.text1{
+	color: white;
+	font-size: 70px;
+	font-weight: 700;
+	letter-spacing: 4px;
+	margin-bottom: 20px;
+	background-color: blue;
+	position: relative;
+	animation: text 3s 1;
+}
+.text2{
+	font-size: 30px;
+	color: black;
+	font-family: Georgia, serif;
+}
+@keyframes text{
+	0%{
+		color: black;
+		margin-bottom: -40px;
+	}
+	30%{
+		letter-spacing: 25px;
+		margin-bottom: -40px;
+	}
+	85%{
+		letter-spacing: 8px;
+		margin-bottom: -40px;
+	}
+}
+			
+/* video style */
+iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	left: 50%;
+	height: 472.5px;
+	width: 100%;
+}
+
+/* footer style */			
+footer {
+	background-color: white;
+	color: black;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+footer div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+footer img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ytlogo {
+	background: url('/images/yt.png') no-repeat 0 0;
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+.twitterlogo {
+	background: url('twitter.png') no-repeat 0 0;
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+.fblogo {
+	background: url('facebook.png') no-repeat 0px 0px;
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+.ytlogo:hover {
+	background: url('yth.png') no-repeat 0 0;
+	width: 50px;
+	height: 50px;
+}
+.twitterlogo:hover {
+	background: url('twitterh.png') no-repeat 0 0;
+	width: 50px;
+	height: 50px;
+}
+.fblogo:hover {
+	background: url('facebookh.png') no-repeat 0px 0px;
+	width: 50px;
+	height: 50px;
+}

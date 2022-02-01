@@ -8,21 +8,27 @@ body {
 
 /* article style */	
 article {
-	background-color: white;				
-	text-align: center;
+	background-color: white;
+	text-align: center;	
 	margin-left: 7%;
 	margin-right: 7%;
 	font-family: Georgia, serif;
 	font-size: 15px;
 	letter-spacing: 2px;
-}				
-article p {
-	padding: 15px;
+}			
+article img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	width: 50%;
+	height: 80%;
+}	
+article p {
+	padding: 15px;
 	width: 85%;
-	overflow: auto;	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }	
 
 /* header style */
